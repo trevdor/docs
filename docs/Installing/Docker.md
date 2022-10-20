@@ -22,15 +22,15 @@ We publish a number of tags to the official repository now so that users who wan
 
 Auto-updated to point to the most recent semver build (see the [workflow docs](https://github.com/marketplace/actions/docker-metadata-action#typeedge)) 👈 this is for people who want the stable build.
 
-* latest
-* latest-alpine - Based on Alpine Linux, which is tiny so great for low powered devices.
+* `latest`
+* `latest-alpine` - Based on Alpine Linux, which is tiny so great for low powered devices.
   
 ### Edge Tag
 
-This tag reflects the last commit of the active branch on your Git repository.
+Auto-updated to point to the latest commit on the `master` branch.
 
-* edge 
-* edge-alpine - Based on Alpine Linux, which is tiny so great for low powered devices.
+* `edge` 
+* `edge-alpine` - Based on Alpine Linux, which is tiny so great for low powered devices.
 
 ## Launch container
 
